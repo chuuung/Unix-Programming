@@ -10,25 +10,22 @@ Your program should work without any arguments. In the meantime, your program ha
   * -f REGEX: a regular expression (REGEX) filter for filtering filenames.
 
 A sample output from this homework is demonstrated as follows:
->$ ./hw1 | head -n 20
->COMMAND         PID             USER            FD              TYPE            NODE            NAME
->systemd         1               root            cwd             unknown                         /proc/1/cwd (Permission denied)
->systemd         1               root            rtd             unknown                         /proc/1/root (Permission denied)
->systemd         1               root            txt             unknown                         /proc/1/exe (Permission denied)
->systemd         1               root            NOFD                                            /proc/1/fd (Permission denied)
->kthreadd                2               root            cwd             unknown                         /proc/2/cwd (Permission denied)
-kthreadd                2               root            rtd             unknown                         /proc/2/root (Permission denied)
-kthreadd                2               root            txt             unknown                         /proc/2/exe (Permission denied)
-kthreadd                2               root            NOFD                                            /proc/2/fd (Permission denied)
-rcu_gp          3               root            cwd             unknown                         /proc/3/cwd (Permission denied)
-rcu_gp          3               root            rtd             unknown                         /proc/3/root (Permission denied)
-rcu_gp          3               root            txt             unknown                         /proc/3/exe (Permission denied)
-rcu_gp          3               root            NOFD                                            /proc/3/fd (Permission denied)
-rcu_par_gp              4               root            cwd             unknown                         /proc/4/cwd (Permission denied)
-rcu_par_gp              4               root            rtd             unknown                         /proc/4/root (Permission denied)
-rcu_par_gp              4               root            txt             unknown                         /proc/4/exe (Permission denied)
-rcu_par_gp              4               root            NOFD                                            /proc/4/fd (Permission denied)
-kworker/0:0H-events_highpri             6               root            cwd             unknown                         /proc/6/cwd (Permission denied)
-kworker/0:0H-events_highpri             6               root            rtd             unknown                         /proc/6/root (Permission denied)
-kworker/0:0H-events_highpri             6               root            txt             unknown                         /proc/6/exe (Permission denied)
-...
+
+$ ./hw1  -c bash
+    bash
+    COMMAND PID     USER      	FD     TYPE     NODE     NAME      
+    bash    26884   terrynini38514	cwd    DIR      57779    /media/psf/Home/Desktop
+    bash    26884   terrynini38514	root   DIR      2        /         
+    bash    26884   terrynini38514	exe    REG      1179741  /usr/bin/bash
+    bash    26884   terrynini38514	mem    REG      1179741  /usr/bin/bash
+    bash    26884   terrynini38514	mem    REG      1186555  /usr/lib/x86_64-linux-gnu/libnss_files-2.31.so
+    bash    26884   terrynini38514	mem    REG      1185120  /usr/lib/locale/locale-archive
+    bash    26884   terrynini38514	mem    REG      1185791  /usr/lib/x86_64-linux-gnu/libc-2.31.so
+    bash    26884   terrynini38514	mem    REG      1185926  /usr/lib/x86_64-linux-gnu/libdl-2.31.so
+    bash    26884   terrynini38514	mem    REG      1186902  /usr/lib/x86_64-linux-gnu/libtinfo.so.6.2
+    bash    26884   terrynini38514	mem    REG      1708797  /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+    bash    26884   terrynini38514	mem    REG      1185576  /usr/lib/x86_64-linux-gnu/ld-2.31.so
+    bash    26884   terrynini38514	0u     CHR      3        /dev/pts/0
+    bash    26884   terrynini38514	1u     CHR      3        /dev/pts/0
+    bash    26884   terrynini38514	2u     CHR      3        /dev/pts/0
+    bash    26884   terrynini38514	255u   CHR      3        /dev/pts/0
