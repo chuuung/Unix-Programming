@@ -10,7 +10,7 @@ Your program should work without any arguments. In the meantime, your program ha
   * -f REGEX: a regular expression (REGEX) filter for filtering filenames.
 
 A sample output from this homework is demonstrated as follows:
-$ ./hw1 | head -n 20
+    $ ./hw1 | head -n 20
 COMMAND         PID             USER            FD              TYPE            NODE            NAME
 systemd         1               root            cwd             unknown                         /proc/1/cwd (Permission denied)
 systemd         1               root            rtd             unknown                         /proc/1/root (Permission denied)
