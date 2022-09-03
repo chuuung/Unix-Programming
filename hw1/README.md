@@ -29,4 +29,5 @@ $ ./hw1  -c bash
     bash    26884   terrynini38514	1u     CHR      3        /dev/pts/0
     bash    26884   terrynini38514	2u     CHR      3        /dev/pts/0
     bash    26884   terrynini38514	255u   CHR      3        /dev/pts/0
+    ...
 ```
