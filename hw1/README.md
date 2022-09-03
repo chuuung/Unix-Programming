@@ -10,7 +10,7 @@ Your program should work without any arguments. In the meantime, your program ha
   * -f REGEX: a regular expression (REGEX) filter for filtering filenames.
 
 A sample output from this homework is demonstrated as follows:
-'''
+```
 $ ./hw1  -c bash
     bash
     COMMAND PID     USER      	FD     TYPE     NODE     NAME      
@@ -29,4 +29,4 @@ $ ./hw1  -c bash
     bash    26884   terrynini38514	1u     CHR      3        /dev/pts/0
     bash    26884   terrynini38514	2u     CHR      3        /dev/pts/0
     bash    26884   terrynini38514	255u   CHR      3        /dev/pts/0
-'''
+```
