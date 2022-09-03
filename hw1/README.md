@@ -11,12 +11,12 @@ Your program should work without any arguments. In the meantime, your program ha
 
 A sample output from this homework is demonstrated as follows:
 >$ ./hw1 | head -n 20
-COMMAND         PID             USER            FD              TYPE            NODE            NAME
-systemd         1               root            cwd             unknown                         /proc/1/cwd (Permission denied)
-systemd         1               root            rtd             unknown                         /proc/1/root (Permission denied)
-systemd         1               root            txt             unknown                         /proc/1/exe (Permission denied)
-systemd         1               root            NOFD                                            /proc/1/fd (Permission denied)
-kthreadd                2               root            cwd             unknown                         /proc/2/cwd (Permission denied)
+>COMMAND         PID             USER            FD              TYPE            NODE            NAME
+>systemd         1               root            cwd             unknown                         /proc/1/cwd (Permission denied)
+>systemd         1               root            rtd             unknown                         /proc/1/root (Permission denied)
+>systemd         1               root            txt             unknown                         /proc/1/exe (Permission denied)
+>systemd         1               root            NOFD                                            /proc/1/fd (Permission denied)
+>kthreadd                2               root            cwd             unknown                         /proc/2/cwd (Permission denied)
 kthreadd                2               root            rtd             unknown                         /proc/2/root (Permission denied)
 kthreadd                2               root            txt             unknown                         /proc/2/exe (Permission denied)
 kthreadd                2               root            NOFD                                            /proc/2/fd (Permission denied)
